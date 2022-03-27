@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- custom CSS files -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome cdn link -->
+    <script src="https://kit.fontawesome.com/05ac7671cc.js" crossorigin="anonymous"></script>
+    <title>Foodie</title>
+
+    <!-- custom AOS animation CSS file link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!-- custom Js files -->
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <!-- --------------------------header start------------------------->
+    <header class="header" data-aos="fade-down"  >
+        <div class="container">
+            <div class="row justify-content-between alien-items-center">
+                <div class="logo">
+                    <a href="#"><img src="Resources/logo.png" alt="logo"></a>
+                </div>
+                <button type="button" class="nav-toggler">
+                    <span></span>
+                </button>
+                <nav class="nav">
+                    <ul class="bar">
+                        <li class="nav-item"><a href="#home">Home</a></li>
+                        <li class="nav-item"><a href="#about-us">About us</a></li>
+                        <li class="nav-item"><a href="#our-menu">Our-menu</a></li>
+                        <li class="nav-item"><a href="#testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a href="#teams">Team</a></li>
+                        <li class="nav-item"><a href="#footer">Contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--------------------------Header end-------------------------->
+
+    <!--------------------------Home section start-------------------------->
+
+    <section class="home-section" id="home">
+        <div class="home-bg"></div>
+        <div class="container">
+            <div class="row min-vh-100">
+                <div class="home-text">
+                    <h1 data-aos="slide-right">Dine out Restaurant</h1>
+                    <p data-aos="slide-left">People who love to eat are always the best people. I believe that food is one way to make people happy. I also believe that food can unite people from all walks of life and cultures. Food brings love, peace and compassion to the table. <br> ~ Chef Wan</p>
+                    <a data-aos="slide-left" class="btn btn-default" href="#our-menu">Our-Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------------------------Home section end-------------------------->
+
+    <!-------------------------About section start------------------>
+    <section class="about-section sec-padding" id="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-title="Our story">about us</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-text" data-aos="slide-right"  >
+                    <h3>Welcome to Dine out Restaurant</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem doloremque, similique reprehenderit harum cumque amet exercitationem quis, voluptates quidem quam aliquam ea! Nesciunt.
+                    </p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem doloremque, similique reprehenderit harum cumque amet exercitationem quis, voluptates quidem quam aliquam ea! Nesciunt.
+                    </p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem doloremque, similique reprehenderit harum cumque amet exercitationem quis, voluptates quidem quam aliquam ea! Nesciunt.
+                    </p>
+                    <a href="#our-menu" class="btn btn-default">Check Our Menu</a>
+                </div>
+                <div class="about-img" data-aos="slide-left"  >
+                    <div class="img-box">
+                        <h3>20+ years of Experience</h3>
+                        <img src="Resources/about-img.jpg" alt="About Img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------------------About section end---------------------------->
+
+    <!-------------------------Menu section start---------------------------->
+    <section class="menu-section sec-padding" id="our-menu">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-title="Order now">Our menu</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="menu-tabs">
+                    <button type="button" class="menu-tab-item active" data-target="#lunch">Lunch</button>
+                    <button type="button" class="menu-tab-item" data-target="#dinner">Dinner</button>
+                    <button type="button" class="menu-tab-item" data-target="#drinks">Drinks</button>
+                    <button type="button" class="menu-tab-item" data-target="#desserts">Desserts</button>
+                </div>
+                <div class="row menu-tab-content active" id="lunch">
+                    <div class="menu-item" data-aos="slide-right"  >
+                        <div class="menu-item-title">
+                            <img src="Resources/menu/1.jpg" alt="Menu tab content thumbnail">
+                            <h3>Lunch item</h3>
+                        </div>
+                        <div class="menu-item-price">
+                            $40.00
+                        </div>
+                    </div>
+                    <div class="menu-item" data-aos="slide-right"  >
+                        <div class="menu-item-title">
+                            <img src="Resources/menu/2.jpg" alt="Menu tab content thumbnail">
+                            <h3>Lunch item</h3>
+                        </div>
+                        <div class="menu-item-price">
+                            $40.00
+                        </div>
+                    </div>
+                    <div class="menu-item" data-aos="slide-right"  >
+                        <div class="menu-item-title">
+                            <img src="Resources/menu/3.jpg" alt="Menu tab content thumbnail">
+                            <h3>Lunch item</h3>
+                        </div>
+                        <div class="menu-item-price">
+                            $40.00
+                        </div>
+                    </div>
+                    <div class="menu-item" data-aos="slide-right"  >
+                        <div class="menu-item-title">
+                            <img src="Resources/menu/4.jpg" alt="Menu tab content thumbnail">
+                            <h3>Lunch item</h3>
+                        </div>
+                        <div class="menu-item-price">
+                            $40.00
+                        </div>
+                    </div>
+                    <div class="menu-item" data-aos="slide-left"  >
+                        <div class="menu-item-title">
+                            <img src="Resources/menu/5.jpg" alt="Menu tab content thumbnail">
+                            <h3>Lunch item</h3>
+                        </div>
+                        <div class="menu-item-price">
+                            $40.00
+                        </div>
+                    </div>
+                    <div class="menu-item" data-aos="slide-left"  >
+                        <div class="menu-item-title">
+                            <img src="Resources/menu/6.jpg" alt="Menu tab content thumbnail">
+                            <h3>Lunch item</h3>
+                        </div>
+                        <div class="menu-item-price">
+                            $40.00
+                        </div>
+                    </div>
+                    <div class="menu-item" data-aos="slide-left"  >
+                        <div class="menu-item-title">
+                            <img src="Resources/menu/7.jpg" alt="Menu tab content thumbnail">
+                            <h3>Lunch item</h3>
+                        </div>
+                        <div class="menu-item-price">
+                            $40.00
+                        </div>
+                    </div>
+                    <div class="menu-item" data-aos="slide-left"  >
+                        <div class="menu-item-title">
+                            <img src="Resources/menu/8.jpg" alt="Menu tab content thumbnail">
+                            <h3>Lunch item</h3>
+                        </div>
+                        <div class="menu-item-price">
+                            $40.00
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-tab-content" id="dinner">
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="Resources/menu/1.jpg" alt="">
+                        <h3>Dinner item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $30.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="Resources/menu/2.jpg" alt="">
+                        <h3>Dinner item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $30.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="Resources/menu/3.jpg" alt="">
+                        <h3>Dinner item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $30.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="Resources/menu/4.jpg" alt="">
+                        <h3>Dinner item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $30.00
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-tab-content" id="drinks">
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="Resources/menu/1.jpg" alt="">
+                        <h3>Drink item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $20.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="Resources/menu/2.jpg" alt="">
+                        <h3>Drink item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $20.00
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-tab-content" id="desserts">
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="Resources/menu/1.jpg" alt="">
+                        <h3>Dessert item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $10.00
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="Resources/menu/2.jpg" alt="">
+                        <h3>Dessert item</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        $10.00
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------------------Menu section end------------------------------>
+
+    <!-------------------------Testimonials section start------------------------------>
+    <section class="testimonial-section sec-padding" id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-title="Testimonials">some feedbacks</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="testi-item" data-aos="fade-right"  >
+                    <div class="testi-author">
+                        <div class="testi-name">
+                            <h3>Taylor Swift</h3>
+                            <span>Puranpoli Specialist</span>
+                        </div>
+                        <div class="testi-img">
+                            <img src="Resources/testimonials/2.jpg" alt="Testimonial img">
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, ex. Modi, odit. Lorem</p>
+                    <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="testi-item" data-aos="flip-down"  >
+                    <div class="testi-author">
+                        <div class="testi-name">
+                            <h3>Luis Fonsi</h3>
+                            <span>Food Specialist</span>
+                        </div>
+                        <div class="testi-img">
+                            <img src="Resources/testimonials/3.jpg" alt="Testimonial img">
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, ex. Modi, odit. Lorem</p>
+                    <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="testi-item" data-aos="fade-left"  >
+                    <div class="testi-author">
+                        <div class="testi-name">
+                            <h3>Selena Gomez</h3>
+                            <span>Modak Specialist</span>
+                        </div>
+                        <div class="testi-img">
+                            <img src="Resources/testimonials/1.jpg" alt="Testimonial img">
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, ex. Modi, odit. Lorem</p>
+                    <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-------------------------Testimonials section end------------------------------>
+    <!-------------------------Team section start------------------------------>
+    <section class="team-section sec-padding" id="teams">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-title="Team">our chef</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="team-item" data-aos="slide-right"  >
+                    <img src="Resources/team/1.jpg" alt="Team Section img">
+                    <div class="team-info">
+                        <h3>Taylor Swift</h3>
+                        <p>Head Chef</p>
+                    </div>
+                </div>
+                <div class="team-item" data-aos="flip-down"  >
+                    <img src="Resources/team/2.jpg" alt="Team Section img">
+                    <div class="team-info">
+                        <h3>Lusi Fonsi</h3>
+                        <p>Head Chef</p>
+                    </div>
+                </div>
+                <div class="team-item" data-aos="slide-left"  >
+                    <img src="Resources/team/3.jpg" alt="Team Section img">
+                    <div class="team-info">
+                        <h3>Selena Gomez</h3>
+                        <p>Head Chef</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------------------Team section end------------------------------>
+    <!-------------------------Footer section start------------------------------>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-item" data-aos="fade-right">
+                    <h3>Our Location</h3>
+                    <p>xyz Street, Hill Road <br> Bandra(W), Mumbai-400050
+                    </p>
+                </div>
+                <div class="footer-item" data-aos="fade-down">
+                    <h3>Opening Hours</h3>
+                    <p>Monday to Sunday <br> 9:00 am - 10:00 pm</p>
+                </div>
+                <div class="footer-item" data-aos="fade-left">
+                    <h3>Contact us</h3>
+                    <p>xyz@gmail.com <br> +919892******
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="copyright">
+                    &copy; 2021 - Designed by Prafful Kamble
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-------------------------Footer section end------------------------------>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script defer>
+      AOS.init({
+        duration : 1000
+      });
+      
+    </script>
+</body>
+
+</html>
